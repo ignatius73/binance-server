@@ -1,0 +1,41 @@
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Tests
+test
+tests
+*.test.js
+
+# CI/CD
+.github
+.gitlab-ci.yml
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log

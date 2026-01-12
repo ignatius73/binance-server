@@ -1,0 +1,30 @@
+{
+  "name": "binance-signature-server",
+  "version": "1.0.0",
+  "description": "HMAC-SHA256 signature server for Binance API authentication",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "docker:build": "docker build -t binance-signature-server .",
+    "docker:run": "docker run -p 3333:3333 binance-signature-server"
+  },
+  "keywords": [
+    "binance",
+    "hmac",
+    "sha256",
+    "signature",
+    "api",
+    "crypto"
+  ],
+  "author": "Gabriel Garcia",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
